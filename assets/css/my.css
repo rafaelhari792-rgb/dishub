@@ -1,0 +1,215 @@
+.bg-header {
+  /*background: #af4d98 !important;*/
+}
+.hero-container {
+    position: relative;
+    background: linear-gradient(270deg, #48367d 0%, #241842 100%);
+    width: 100%;
+    padding: 80px 20px;
+    /*padding-bottom: 170px;*/
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    /*-ms-transform: translateY(-40px);
+    transform: translateY(-40px);*/
+}
+.hero-container {
+    /*padding-bottom: 145px;*/
+}
+.hero-container {
+    background-image: linear-gradient(to top, #f5b461 0%, #ec524b 25%);
+    position: relative;
+}
+.hero-wave, .hero-wave:before, .hero-wave:after {
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 100% 0 0;
+}
+.hero-wave {
+    width: 300px;
+    height: 300px;
+    background: rgba(216,216,216,0.1);
+}
+.hero-wave:before {
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: rgba(216,216,216,0.15);
+}
+.hero-wave:after {
+    content: '';
+    width: 450px;
+    height: 450px;
+    background: rgba(216,216,216,0.1);
+}
+.hero-container .hero-content {
+    margin-top: 50px;
+    max-width: 1000px;
+    width: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: normal;
+    align-items: normal;
+}
+@media (min-width: 576px) {
+	.hero-container .hero-content {
+	    max-width: 540px;
+	}
+}
+@media (min-width: 768px) {
+	.hero-container .hero-content {
+	    max-width: 720px;
+	}
+}
+@media (min-width: 992px) {
+	.hero-container .hero-content {
+	    max-width: 960px;
+	}
+}
+@media (min-width: 1200px) {
+	.hero-container .hero-content {
+	    max-width: 1140px;
+	}
+}
+
+.hero-container .hero-content {
+    margin-top: 30px;
+}
+.hero-container .hero-item {
+    -ms-transform: none;
+    transform: none;
+    opacity: 1;
+}
+.hero-container .carousel {
+  margin-top: 20px;
+}
+
+@media (min-width: 576px) {
+  .hero-container .hero-item {
+      -ms-transform: translateY(40px);
+      transform: translateY(40px);
+      opacity: 1;
+  }
+
+	.hero-container .carousel {
+    margin-top: 0;
+	}
+}
+
+.simple-cta {
+    background: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0px auto 0px auto;
+    max-width: 700px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+.simple-cta.pullup {
+    margin-top: -98px;
+    border-color: #4D089A;
+    border-style: solid;
+    border-width: 2px;
+}
+.main-header.bg-transparent {
+	border-bottom: none !important;
+}
+
+#footer-section .links {
+  list-style: none;
+}
+
+#footer-section .links ul {
+  padding: 0;
+}
+
+#footer-section .links ul li {
+  list-style: none;
+}
+
+#footer-section .links ul li a {
+  display: block;
+  color: #fff;
+  border-bottom: 1px solid hsla(0,0%,100%,.5);
+  padding: 10px 0;
+  text-decoration: none;
+}
+#footer-section .links ul li a:hover {
+  color: #ffeb3b;
+  border-color: #ffeb3b;
+}
+
+.navbar-collapse.collapse {
+  /*margin-left: -1rem;
+  margin-right: -1rem;*/
+  padding: 0 0 1rem 1rem;
+  background: #dc3545;
+  /*border: 1px solid #ffeb3b;*/
+}
+
+.navbar-collapse.collapse.show .nav-link {
+  color: #FFFF02;
+}
+
+@media (min-width: 576px) {
+  .navbar-toggle {
+    display: none;
+  }
+
+  .main-header.navbar {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .main-header.navbar>.container, .main-header.navbar>.container-fluid {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .main-header.navbar .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+
+  .main-header.navbar .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+
+  .main-header.navbar .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: #FFFF02;
+  }
+
+  .main-header.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .navbar-collapse.collapse {
+    background: transparent;
+  }
+}
